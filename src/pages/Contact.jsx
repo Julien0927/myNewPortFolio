@@ -82,7 +82,7 @@ export default function Contact() {
 {/*                         <p className="text-xl text-justify mt-2" style={{fontFamily: 'Poppins'}}>Vous pouvez me contacter via ce formulaire ou par email pour toute proposition ou collaboration. Je m'engage à vous répondre rapidement !</p>
  */}                      <Link to="mailto:borderdevop@gmail.com">
                             <div className="flex justify-start gap-5 mt-5 ">
-                                <img className="size-8 mt-3 " src="src/assets/icones/mail.svg" alt="mail contact" />
+                                <img className="size-8 mt-3 " src="/icones/mail.svg" alt="mail contact" />
                                 <div className="flex flex-col justify-start">
                                   <h3 className="text-xl text-start font-bold" style={{fontFamily: 'Poppins'}}>Email</h3>
                                   <p className="text-xl" style={{fontFamily: 'Poppins'}}>borderdevop@gmail.com</p>
