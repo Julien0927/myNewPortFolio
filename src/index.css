@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui" { }
+
+/* Thème clair (par défaut) */
+:root {
+  margin: 0 auto;
+  text-align: center;
+  
+  /* Couleurs du thème clair */
+  --color-primary: #208368;
+  --color-secondary: #E6F7ED;
+  --color-tertiary: #134d3e;
+  --color-quaternary: #050505;
+  --color-quinary: #6ed8bc;
+  --color-base: #ffffff;
+  --color-base-100: #ffffff;
+  --color-slip: #fafafa;
+  
+  /* Variables pour les éléments de l'interface */
+  --background-color: #ffffff;
+  --text-color: var(--color-quaternary);
+  --card-background: var(--color-secondary);
+  --border-color: var(--color-primary);
+  --accent-color: var(--color-quinary);
+}
+
+/* Thème sombre */
+[data-theme="dark"] {
+  /* Couleurs du thème sombre dérivées de la palette claire */
+  --color-primary: #1a6e57;     /* Version plus foncée du vert primaire */
+  --color-secondary: #1e2c26;   /* Version très foncée du vert pâle */
+  --color-tertiary: #0a3d31;    /* Version plus foncée du vert tertiaire */
+  --color-quaternary: #f0f0f0;  /* Inversé pour le texte (presque blanc) */
+  --color-quinary: #49a08b;     /* Version plus foncée du vert clair */
+  --color-base: #0f1a17;        /* Version très foncée du blanc */
+  --color-base-100: #0f1a17;    /* Version très foncée du blanc */
+  --color-slip: #212020;
+
+  /* Variables pour les éléments de l'interface en mode sombre */
+  --background-color: #0f1a17;
+  --text-color: var(--color-quaternary);
+  --card-background: #182822;
+  --border-color: var(--color-primary);
+  --accent-color: var(--color-quinary);
+}
+
+/* Styles de base qui utilisent les variables de couleur */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card {
+  background-color: var(--card-background);
+}
+.card-body {
+  background-color: var(--color-slip);
+}
+.accent {
+  color: var(--accent-color);
+}
+
+.border-accent {
+  border-color: var(--accent-color);
+}
+
+/* Polices */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}

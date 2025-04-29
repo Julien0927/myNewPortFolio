@@ -1,0 +1,16 @@
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  --color-primary: #208368;
+  --color-secondary: #E6F7ED;
+  --color-tertiary: #134d3e;
+  --color-quaternary: #050505;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
