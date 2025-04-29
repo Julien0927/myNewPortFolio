@@ -50,17 +50,17 @@ export default function Nav() {
   };
   
   const navLinks = [
-    {path: "/", label: "Accueil", icon: "src/assets/icones/accueil-24.png" },
-    {path: "/about", label: "À propos", icon: "src/assets/icones/homme-24.png" },
-    {path: "/projects", label: "Projets", icon: "src/assets/icones/code-24.png" },
-    {path: "/contact", label: "Contact", icon: "src/assets/icones/message-24.png" },
+    {path: "/", label: "Accueil", icon: "/icones/accueil-24.png" },
+    {path: "/about", label: "À propos", icon: "/icones/homme-24.png" },
+    {path: "/projects", label: "Projets", icon: "/icones/code-24.png" },
+    {path: "/contact", label: "Contact", icon: "/icones/message-24.png" },
   ];
   const location = useLocation();
   return (
     <>
       <div className="navbar bg-base shadow-sm">
         <div className="navbar-start">
-          <img className="size-6 me-2" src="src/assets/icones/code-48.png" alt="ghibli" />
+          <img className="size-6 me-2" src="/icones/code-48.png" alt="ghibli" />
           <span className="text-primary font-bold text-xl">Julien</span>
         </div>
         <div className="navbar-center hidden lg:flex">
