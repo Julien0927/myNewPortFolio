@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="hero bg-base-100 min-h-[70vh]">
         <div className="hero-content text-center">
             <div className="max-w-3xl">
-                <img className=" mx-auto border-4 border-primary rounded-full size-32 mb-5" src="src/assets/img/photoCV.jpg" alt="ghibli" />
+                <img className=" mx-auto border-4 border-primary rounded-full size-32 mb-5" src="/img/photoCV.jpg" alt="ghibli" />
                 <AnimatedName />
                 <p className="text-xl py-6 " style={{fontFamily: 'Poppins'}}>
                     Passionné par la création de solutions numériques élégantes et performantes.
