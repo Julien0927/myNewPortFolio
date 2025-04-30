@@ -117,7 +117,7 @@ export default function Nav() {
 
             {/* hamburger icon */}
             <svg
-              className="swap-off fill-current"
+              className="swap-off bg-base fill-current"
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
@@ -127,7 +127,7 @@ export default function Nav() {
 
             {/* close icon */}
             <svg
-              className="swap-on fill-current"
+              className="swap-on bg-base fill-current"
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
