@@ -14,7 +14,7 @@ export default function Footer () {
             </p>
           </div>
           
-          <div className="flex flex-col md:flex-row gap-6 md:gap-10 ">
+          <div className="flex md:flex-row gap-6 md:gap-10 ">
             <Link to="/" className="hover:text-primary dark:hover:text-quinary transition-colors">
               Accueil
             </Link>

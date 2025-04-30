@@ -35,7 +35,9 @@ export default function Nav() {
     if (savedMode) {
       setIsDarkMode(JSON.parse(savedMode)); // Met à jour l'état selon la valeur sauvegardée
     }
+  }, []);
 
+  useEffect(() => {
     // Applique le mode sombre en utilisant data-theme au lieu de la classe dark
     if (isDarkMode) {
       document.documentElement.setAttribute('data-theme', 'dark');
@@ -64,7 +66,7 @@ export default function Nav() {
           <span className="text-primary font-bold text-xl">Julien</span>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu text-xl menu-horizontal px-1 gap-4">
+          <ul className="menu bg-base text-xl menu-horizontal px-1 gap-4">
             {navLinks.map(({path, label, icon }) => {
               const isActive = location.pathname === path;
               return (
@@ -109,7 +111,7 @@ export default function Nav() {
                 d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
             </svg>
           </label>
-          <label className="btn btn-circle swap swap-rotate bg-white border-0 w-12 h-12 lg:hidden">
+          <label className="btn btn-circle swap swap-rotate bg-base border-0 w-12 h-12 lg:hidden">
             {/* this hidden checkbox controls the state */}
             <input type="checkbox" onChange={toggleMenu} checked={isMenuOpen}/>
 
@@ -143,7 +145,7 @@ export default function Nav() {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "tween", duration: 0.3 }}
-            className="lg:hidden bg-white dark:bg-tertiary shadow-md absolute top-[64px] left-0 w-full h-full z-50"
+            className="lg:hidden bg-base-100 dark:bg-quaternary shadow-md absolute top-[64px] left-0 w-full h-full z-50"
           >
             <ul className="flex flex-col items-center py-4 text-lg">
               {navLinks.map(({ path, label, icon }) => (
