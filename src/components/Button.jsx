@@ -29,7 +29,7 @@ export default function Button({ children, variant = 'primary', fontFamily = 'Mo
   const weightClass = weightClasses[fontWeight] || 'font-normal'; // Default to normal if not found
   const buttonClasses = {
     primary: `btn btn-xl ${fontClass} ${weightClass} ${sizeClass} border-1 rounded-full bg-primary text-secondary px-5 transition-colors duration-300 hover:bg-teal-700`,
-    primaryBis: `btn btn-sm ${fontClass} ${weightClass} ${sizeClass} border-1 my-5  rounded-full bg-primary text-secondary px-5 transition-colors duration-300 hover:bg-teal-700`,
+    primaryBis: `btn btn-sm ${fontClass} ${weightClass} ${sizeClass} border-1 my-5  rounded-full bg-primary text-sm text-secondary px-3 transition-colors duration-300 hover:bg-teal-700`,
     secondary: `btn btn-xl ${fontClass} ${weightClass} ${sizeClass} border-1 rounded-full bg-secondary text-primary px-5 transition-colors duration-300 hover:bg-secondary `,
   };
 
