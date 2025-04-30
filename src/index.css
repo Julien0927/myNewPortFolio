@@ -28,9 +28,9 @@
 /* Thème sombre */
 [data-theme="dark"] {
   /* Couleurs du thème sombre dérivées de la palette claire */
-  --color-primary: #1a6e57;     /* Version plus foncée du vert primaire */
+  --color-primary: #6ed8bc;     /* Version plus foncée du vert primaire */
   --color-secondary: #1e2c26;   /* Version très foncée du vert pâle */
-  --color-tertiary: #0a3d31;    /* Version plus foncée du vert tertiaire */
+  --color-tertiary: #1cb792;    /* Version plus foncée du vert tertiaire */
   --color-quaternary: #f0f0f0;  /* Inversé pour le texte (presque blanc) */
   --color-quinary: #49a08b;     /* Version plus foncée du vert clair */
   --color-base: #0f1a17;        /* Version très foncée du blanc */
@@ -65,7 +65,6 @@ body {
 .border-accent {
   border-color: var(--accent-color);
 }
-
 
 /* Polices */
 .font-montserrat {

@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export default function Footer () { 
   return (
-    <footer className="bg-base  py-8 border-t border-gray-200 dark:border-gray-800">
+    <footer className="bg-base py-8 border-t border-gray-200 dark:border-gray-800">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <Link to="/" className="text-xl font-bold text-primary dark:text-custom-quinary">
+            <Link to="/" className="text-xl font-bold text-primary ">
               Portfolio
             </Link>
             <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">

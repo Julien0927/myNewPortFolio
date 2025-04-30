@@ -26,7 +26,7 @@ export default function About() {
     }
   ];
 
-  const [selectedCategory, setSelectedCategory] = useState("backend");
+  const [selectedCategory, setSelectedCategory] = useState("frontend");
 
   const handleTabChange = (e) => {
     setSelectedCategory(e.target.id);
@@ -94,7 +94,7 @@ export default function About() {
       </div>
 
       {/* Call-to-action */}
-      <div className="mt-4 bg-secondary  dark:bg-tertiary rounded-xl p-6 md:p-8 text-center">
+      <div className="mx-auto mt-4 bg-secondary max-w-xl rounded-xl p-6 md:p-8 text-center">
         <h3 className="text-xl font-semibold mb-3 text-primary dark:text-white">
           Une idée de projet en tête ?
         </h3>

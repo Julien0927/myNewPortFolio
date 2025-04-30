@@ -8,7 +8,7 @@ export default function Projects() {
         title="Projets" 
         description ="Voici quelques projets que j'ai pu réaliser afin de montrer mes compétences..."
     >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 overflow-hidden">
             <Card 
                 title="Semi-marathon de La Rochelle "
                 description=
@@ -34,7 +34,7 @@ export default function Projects() {
             <Card 
                 title="Memory Game"
                 description="Jeu de mémoire en JavaScript. J'ai réalisé ce jeu pendant ma formation. J'ai ensuite adapté le jeu pour le rendre plus sympa pour mes enfants"
-                image="/img/memory.png"
+                image="/img/Memory.png"
                 techno={["JavaScript", "CSS"]}
                 link={"https://memoryboupi.netlify.app/"}
             />

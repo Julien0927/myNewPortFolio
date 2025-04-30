@@ -25,13 +25,13 @@ export default function Hero() {
                 </div>
                 <div className="flex justify-center mt-5 gap-5 ">
                     <Link to="https://github.com/Julien0927/" target="_blank" rel="noopener noreferrer">
-                        <img className="size-8 hover:scale-105 transition-transform ease-in-out duration-500" src="/icones/github-142.svg" alt="ghibli" />
+                        <img className="size-8 hover:scale-105 transition-transform ease-in-out duration-500" src="/icones/github-142.svg" alt="GitHub" />
                     </Link>
                     <Link to="https://www.linkedin.com/in/julien-varachas-925493217/" target="_blank" rel="noopener noreferrer">
-                        <img className="size-8 hover:scale-105 transition-transform ease-in-out duration-500" src="/icones/linkedin.svg" alt="ghibli" />
+                        <img className="size-8 hover:scale-105 transition-transform ease-in-out duration-500" src="/icones/linkedin.svg" alt="Linkedin" />
                     </Link>
                     <Link to="mailto: ">
-                        <img className="size-8 hover:scale-105 transition-transform ease-in-out duration-500" src="/icones/mail.svg" alt="ghibli" />
+                        <img className="size-8 hover:scale-105 transition-transform ease-in-out duration-500" src="/icones/mail.svg" alt="mail" />
                     </Link>
                 </div>
             </div>

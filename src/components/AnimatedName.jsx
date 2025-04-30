@@ -53,7 +53,7 @@ const AnimatedName = () => {
       </h1>
       
       <motion.p
-        className="text-2xl mt-2 font-medium text-primary dark:text-quinary"
+        className="text-2xl mt-2 font-medium text-primary "
         initial="hidden"
         animate="visible"
         variants={titleVariants}
