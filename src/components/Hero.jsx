@@ -19,7 +19,7 @@ export default function Hero() {
                     <Link to="/About" className="hover:scale-105 transition-transform ease-in-out duration-500">
                         <Button children="En savoir plus" variant="primary" fontFamily="Poppins" fontWeight="light" fontSize="xl"/>
                     </Link>
-                    <a href="/CV.pdf" download className="hover:scale-105 transition-transform ease-in-out duration-500">
+                    <a href="/CV Portfolio.pdf" download className="hover:scale-105 transition-transform ease-in-out duration-500">
                         <Button children="Télécharger mon CV" variant="secondary" fontFamily="Poppins" fontWeight="light" fontSize="xl"/>
                     </a>
                 </div>
